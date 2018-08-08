@@ -1,0 +1,23 @@
+package com.cos.controller.member;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.cos.action.Action;
+import com.cos.dto.memberVO;
+
+public class MemberJoinAction implements Action {
+	private static String naming = "MemberJoinAction";
+	@Override
+	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String url = "/main.jsp";
+		
+		memberVO member = new MemberVO();
+		member.setId(request.getParameter("id"));
+		member.setId(request.getParameter("id"));
+		member.setId(request.getParameter("id"));
+	}
+}

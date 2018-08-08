@@ -1,0 +1,14 @@
+package com.cos.dao;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class MemberDAO {
+	private PreparedStatement pstmt;
+	private ResultSet rs;
+	
+	public void test() {
+		String SQL = "INSERT INTO member VALUES('cos','1234','cos','cos@nate.com')";
+	}
+	
+}

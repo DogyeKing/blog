@@ -1,0 +1,12 @@
+1533179771759	Rename package 'com.cos.controller'
+1533179797660	Delete element
+1533179801465	Delete element
+1533180757994	Rename type 'BoardDAO'
+1533185556357	Delete element
+1533185619935	Rename resource 'index.html'
+1533185670848	Delete element
+1533185718873	Move 2 resources to 'WebContent'
+1533194153397	Rename type 'memberVO'
+1533257549269	Move compilation unit
+1533261084480	Move 2 resources to 'gmail'
+1533279270544	Rename type 'MemberLogout'

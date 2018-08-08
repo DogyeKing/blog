@@ -1,0 +1,12 @@
+package com.cos.dao;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class MemberDAO {
+	private PreparedStatement pstmt;
+	private ResultSet rs;
+	
+	
+	
+}

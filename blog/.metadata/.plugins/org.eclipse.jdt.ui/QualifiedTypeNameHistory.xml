@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.naming.Context"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="com.sun.corba.se.spi.orbutil.fsm.Guard.Result"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="com.cos.action.ActionFactory"/>
+<fullyQualifiedTypeName name="com.cos.dto.memberVO"/>
+<fullyQualifiedTypeName name="com.cos.controller.member.MemberJoinAction"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="com.cos.util.Script"/>
+<fullyQualifiedTypeName name="javax.mail.Authenticator"/>
+<fullyQualifiedTypeName name="com.cos.dao.MemberDAO"/>
+<fullyQualifiedTypeName name="com.cos.controller.member.MemberLoginAction"/>
+<fullyQualifiedTypeName name="com.cos.dto.MemberVO"/>
+<fullyQualifiedTypeName name="com.cos.util.DBManager"/>
+<fullyQualifiedTypeName name="com.cos.util.SHA256"/>
+<fullyQualifiedTypeName name="com.cos.action.Action"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="com.cos.controller.member.MemberLogoutAction"/>
+<fullyQualifiedTypeName name="device.TV"/>
+</qualifiedTypeNameHistroy>

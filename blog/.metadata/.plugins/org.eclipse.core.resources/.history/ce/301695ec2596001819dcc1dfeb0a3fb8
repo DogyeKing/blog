@@ -1,0 +1,18 @@
+package com.cos.util;
+
+import java.io.PrintWriter;
+
+import javax.servlet.http.HttpServletResponse;
+
+public class Script {
+	public static void moving(HttpServletResponse response, String msg) {
+		try {
+			PrintWriter script = response.getWriter();
+			script.println("<script>");
+			script.println("<alert('¾È³ç')>");
+			script.println("<script>");
+		} catch (Exception e) {
+			e.printStackTrace();
+		} 
+	}
+}
