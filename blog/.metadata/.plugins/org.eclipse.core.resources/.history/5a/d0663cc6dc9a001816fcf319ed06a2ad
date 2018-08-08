@@ -54,7 +54,6 @@ public class MemberJoinAction implements Action{
 		member.setId(id);
 		member.setPassword(password);
 		member.setUsername(username);
-		member.setRoadFullAddr(roadFullAddr);
 		member.setEmail(email);
 		member.setSalt(salt);
 	

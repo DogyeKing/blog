@@ -7,16 +7,10 @@ public class MemberVO {
 	private String roadFullAddr;
 	private String email;
 	private String salt;
-	private boolean emailcheck;
-
 	
-	public String getRoadFullAddr() {
-		return roadFullAddr;
-	}
-	public void setRoadFullAddr(String roadFullAddr) {
-		this.roadFullAddr = roadFullAddr;
-	}
-
+	private boolean emailcheck;
+	
+	
 	public boolean isEmailcheck() {
 		return emailcheck;
 	}
