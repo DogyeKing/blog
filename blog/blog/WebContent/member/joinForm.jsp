@@ -25,7 +25,7 @@
 
 <body>
 	<!-- Nav Include -->
-	<jsp:include page="/include/navigation.jsp"/>
+	<jsp:include page="/include/head.jsp"/>
 
 <!-- Page Content -->
 <div class="container">
@@ -55,16 +55,24 @@
 				<label class="form-control-label">Username</label>
 				<input class="form-control form-control-lg" type="text" name="username" maxlength="20" required>
 			</div>
+			
+			<div class="form-group">
+				<label class="form-control-label">address</label>
+				<button class="btn btn-outline-info float-right" onclick="#">Search Korean Address</button>
+				<input class="form-control form-control-lg" type="text" name="roadFullAddr" maxlength="20" required readonly>
+			</div>
 		
 			<div class="form-group">
 				<label class="form-control-label">Email</label>
 				<input class="form-control form-control-lg" type="email" name="email" maxlength="20" required>
 			</div>
+			
 			<div class="border-top pt-3">
 				<small class="text-muted">
 					Already Have an Account? <a class="ml-2" href="<%=request.getContextPath()%>/member/loginForm.jsp">Login</a>
 				</small>
 			</div>
+			
 			<div class="form-group">
 				<button class="btn btn-outline-info" type="submit">Sign in</button>
 			</div>
@@ -75,7 +83,7 @@
 </div>
 
 <!--  SideBar Include -->
-	<jsp:include page="../include/sidebar.jsp"/>
+	<jsp:include page="../include/aside.jsp"/>
 
 <!-- Sidebar Widgets Column -->
 
